@@ -12,6 +12,7 @@ while i < length_list + 1:
         continue
     elif my_list[i] > 0:
          result.extend([my_list[i]])
+         print('Значение :', i, my_list[i])
          i = i + 1
          continue
     else:
